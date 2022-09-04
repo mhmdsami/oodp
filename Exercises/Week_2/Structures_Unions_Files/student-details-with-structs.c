@@ -13,7 +13,7 @@ int main()
     struct Student *students;
     printf("Enter number of students: ");
     scanf("%d", &number_of_students);
-    students = malloc(sizeof(struct Student) * number_of_students);
+    students = (struct Student *)malloc(sizeof(struct Student) * number_of_students);
     for (i = 0; i < number_of_students; i++)
     {
         printf("Enter name of student[%d]: ", i + 1);

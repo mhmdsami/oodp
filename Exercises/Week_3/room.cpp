@@ -15,7 +15,7 @@ public:
 
     float get_area()
     {
-        return 2 * (length * breadth + breadth * height + height * length);
+        return length * breadth;
     }
 
     float get_volume()

@@ -7,7 +7,7 @@ int main()
     cin >> number;
     if (number > 0)
     {
-        cout << number << " is positive number";
+        cout << number << " is a positive number";
     }
     else if (number == 0)
     {
@@ -15,7 +15,7 @@ int main()
     }
     else
     {
-        cout << number << " is negative number";
+        cout << number << " is a negative number";
     }
     return 0;
 }
