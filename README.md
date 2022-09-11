@@ -13,7 +13,7 @@ If you have a solution to a problem that does not exist, feel free to make a PR!
 - Create a [fork](https://github.com/mhmdsami/oodp/fork) of this repo.
 - Clone it locally!
 ```
-git clone https://github.com/<your-username>/dsa
+git clone https://github.com/<your-username>/oodp
 ```
 - Add your solution in the correct directory ```<Session_Name>/<Level>```  
 For example, if you are adding to solution to a question in level 2 of I/O Operation, add it to ```IO_Operation/Level_2```. The directory must be ```UPPER_SNAKE_CASE```
