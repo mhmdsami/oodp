@@ -5,11 +5,12 @@ class Appraisal
 {
 private:
     int sal;
+
 public:
     Appraisal()
     {
         sal = 30000;
-        cout << "Old Salary: "<< sal << endl;
+        cout << "Old Salary: " << sal << endl;
     }
 
     Appraisal(int new_sal)
@@ -17,7 +18,7 @@ public:
         sal = 30000;
         int hike = new_sal - sal;
         cout << "New Salary: " << new_sal << endl;
-        cout << "You have the Hike of Rs." << hike << endl; 
+        cout << "You have the Hike of Rs." << hike << endl;
     }
 };
 

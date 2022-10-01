@@ -14,9 +14,9 @@ public:
         this->area = area;
         this->density = density;
 
-        cout << "Country: INDIA" << endl 
-             << "State: " << this->statename << endl 
-             << "Area: " << this->area << endl 
+        cout << "Country: INDIA" << endl
+             << "State: " << this->statename << endl
+             << "Area: " << this->area << endl
              << "Density: " << this->density;
     }
 };
