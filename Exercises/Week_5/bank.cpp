@@ -26,7 +26,7 @@ public:
 int main()
 {
     Bank b1(20), b2;
-    cout << "Amount in s1" << endl;
+    cout << "Amount in b1" << endl;
     b1.displayAmount();
     cout << "Amount in b2" << endl;
     b2.displayAmount();
