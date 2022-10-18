@@ -34,6 +34,7 @@ public:
              << "Student Details" << endl
              << "Name: " << name << endl
              << "Registration Number: " << reg_no << endl
+             << "Department: " << dept << endl
              << "Age: " << age << endl
              << "Year: " << year << endl;
     }
