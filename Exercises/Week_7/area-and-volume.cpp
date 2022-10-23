@@ -9,12 +9,8 @@ protected:
 public:
     void set_radius()
     {
+        cout << "Enter the radius: ";
         cin >> radius;
-    }
-
-    double get_radius()
-    {
-        return radius;
     }
 };
 
@@ -29,26 +25,26 @@ class Area : public Radius, PI
 public:
     double get_area()
     {
-        double radius = get_radius();
         return PI * radius * radius;
     }
 };
 
-class Volume : public Area
+class Volume : public Radius, PI
 {
 public:
     double get_volume()
     {
-        double radius = get_radius(), area = get_area();
-        return 4 * area * radius / 3;
+        return 4 * PI * radius * radius * radius / 3;
     }
 };
 
 int main()
 {
-    Volume obj;
-    obj.set_radius();
-    cout << "The area of the circle is " << obj.get_area() << endl;
-    cout << "The volume of the sphere is " << obj.get_volume() << endl;
+    Area area;
+    Volume volume;
+    area.set_radius();
+    cout << "The area of the circle is " << area.get_area() << endl;
+    volume.set_radius();
+    cout << "The volume of the sphere is " << volume.get_volume() << endl;
     return 0;
 }
