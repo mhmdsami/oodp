@@ -16,14 +16,14 @@ int main()
     double volume;
 
     // box1 specification
-    box1.height = 5.0;
-    box1.length = 6.0;
-    box1.breadth = 7.0;
+    box1.height = 4.0;
+    box1.length = 7.0;
+    box1.breadth = 9.0;
 
     // box2 specification
-    box2.height = 10.0;
-    box2.length = 12.0;
-    box2.breadth = 13.0;
+    box2.height = 11.0;
+    box2.length = 13.0;
+    box2.breadth = 15.0;
 
     // volume of box1
     volume = box1.height * box1.length * box1.breadth;
